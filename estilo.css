@@ -1,0 +1,58 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial;
+}
+
+#chatbox {
+	width: 75%;
+	height: 100%;
+	position: absolute;
+	margin-left: 30px;
+}
+
+	#chatlog {
+		padding-top: 15px;
+		width: 100%;
+		position: absolute;
+		right: 0px;
+		height: 87%;
+		border-bottom: 1px solid black;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+#chatlist {
+	position: absolute;
+	right: 0px;
+	width: 15%;
+	height: 100%;
+	border-left: 1px solid black;
+}
+
+	#chatlist ul {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 0px;
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+
+	#chatlist ul li {
+		list-style: none;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		border-bottom: 1px solid black;
+	}
+
+#writebox {
+	width: 100%;
+	position: absolute;
+	height: 10%;
+	bottom: 0px;
+	text-align: right;
+}
+
+	#writebox input {
+		width: 80%;
+	}

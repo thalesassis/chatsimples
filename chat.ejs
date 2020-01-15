@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="jquery.js"></script>
+        <script src="mutate.events.js"></script>
+		<script src="mutate.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+
+
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <script type="text/javascript">
+
+        var socketio = io.connect("http://chatsimples.cloudno.de/");
+
+        socketio.on("message_to_client", function(data) {
+            $("#chatlog").html($("#chatlog").html() + data['message'] + "<hr/>");
+        });
+
+        socketio.on("lista", function(data) {
+            var lista = data["lista"];
+            var lista_html = "<ul>";
+
+            for(var i = 0; i < lista.length; i++) {
+                lista_html += "<li>"+lista[i]+"</li>";
+            }
+
+            lista_html += "</ul>";
+            $("#chatlist").html(lista_html);
+        });
+
+        $(window).load(function() {
+            socketio.emit("novo_usuario", { nome : '<%= user.nome %>' });
+            $('#message_input').keypress(function (e) {
+              if (e.which == 13) {
+                sendMessage();
+              }
+            });
+
+            $('#chatlog').mutate('scrollHeight',function (){
+		    	$("#chatlog").animate({ scrollTop: $("#chatlog")[0].scrollHeight }, 1);
+			});
+        })
+
+        function sendMessage() {
+            var msg = $("#message_input").val();
+            if(msg != "") {
+                $("#message_input").val('');
+                socketio.emit("message_to_server", { message : msg});
+            }
+
+            
+        }
+
+        
+        </script>
+    </head>
+    <body>
+        
+        <div id="chatbox">
+            <div id="chatlog"></div>
+            <div id="writebox">
+                <input type="text" id="message_input"/>
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+
+        <div id="chatlist"></div>
+
+    </body>
+</html>

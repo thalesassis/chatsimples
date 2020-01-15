@@ -1,0 +1,303 @@
+>>>
+13 Nov 00:44:18 - Inside Node Virtual Machine
+13 Nov 00:44:18 - Version: v0.12.7
+13 Nov 00:44:18 - Owning user: node
+13 Nov 00:44:18 - User ID: 1010
+13 Nov 00:44:18 - Setting up sandbox..
+13 Nov 00:44:18 - Munging require paths..
+13 Nov 00:44:18 - Globalizing Buffer
+13 Nov 00:44:18 - Reading startup file server.js...
+13 Nov 00:44:18 - Final user check: 1010
+<<<
+
+13 Nov 00:44:18 - Node Virtual Machine started (4827) at Fri Nov 13 2015 00:44:18 GMT+0000 (UTC)
+info: socket.io started
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized NT0sgWf8ikYbR5mzTNI4
+debug: setting request GET /socket.io/1/websocket/NT0sgWf8ikYbR5mzTNI4
+debug: set heartbeat interval for client NT0sgWf8ikYbR5mzTNI4
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"Bem vindo ao chat do Thales!"}]}
+debug: websocket writing 5:::{"name":"lista","args":[{"lista":["Thalee"]}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thalee</strong> entrou na sala."}]}
+info: transport end (undefined)
+debug: set close timeout for client NT0sgWf8ikYbR5mzTNI4
+debug: cleared close timeout for client NT0sgWf8ikYbR5mzTNI4
+debug: cleared heartbeat interval for client NT0sgWf8ikYbR5mzTNI4
+debug: discarding transport
+debug: client authorized
+info: handshake authorized fQaREdV8NC2vKOOZTNI5
+debug: setting request GET /socket.io/1/websocket/fQaREdV8NC2vKOOZTNI5
+debug: set heartbeat interval for client fQaREdV8NC2vKOOZTNI5
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"Bem vindo ao chat do Thales!"}]}
+debug: websocket writing 5:::{"name":"lista","args":[{"lista":["Thalee"]}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thalee</strong> entrou na sala."}]}
+info: transport end (undefined)
+debug: set close timeout for client fQaREdV8NC2vKOOZTNI5
+debug: cleared close timeout for client fQaREdV8NC2vKOOZTNI5
+debug: cleared heartbeat interval for client fQaREdV8NC2vKOOZTNI5
+debug: discarding transport
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized C335EWu6gLOhAJ3YTNI6
+debug: setting request GET /socket.io/1/websocket/C335EWu6gLOhAJ3YTNI6
+debug: set heartbeat interval for client C335EWu6gLOhAJ3YTNI6
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"Bem vindo ao chat do Thales!"}]}
+debug: websocket writing 5:::{"name":"lista","args":[{"lista":["Ana"]}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Ana</strong> entrou na sala."}]}
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized ipkz4xIB39q45JzWTNI7
+debug: setting request GET /socket.io/1/websocket/ipkz4xIB39q45JzWTNI7
+debug: set heartbeat interval for client ipkz4xIB39q45JzWTNI7
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"Bem vindo ao chat do Thales!"}]}
+debug: websocket writing 5:::{"name":"lista","args":[{"lista":["Ana","Thales"]}]}
+debug: websocket writing 5:::{"name":"lista","args":[{"lista":["Ana","Thales"]}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> entrou na sala."}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> entrou na sala."}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Ana</strong> diz: Oi"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Ana</strong> diz: Oi"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> diz: Oi amor!!"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> diz: Oi amor!!"}]}
+debug: emitting heartbeat for client C335EWu6gLOhAJ3YTNI6
+debug: websocket writing 2::
+debug: set heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: set heartbeat interval for client C335EWu6gLOhAJ3YTNI6
+debug: emitting heartbeat for client ipkz4xIB39q45JzWTNI7
+debug: websocket writing 2::
+debug: set heartbeat timeout for client ipkz4xIB39q45JzWTNI7
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Ana</strong> diz: Oi amooor"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Ana</strong> diz: Oi amooor"}]}
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client ipkz4xIB39q45JzWTNI7
+debug: set heartbeat interval for client ipkz4xIB39q45JzWTNI7
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> diz: 😃"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> diz: 😃"}]}
+debug: emitting heartbeat for client C335EWu6gLOhAJ3YTNI6
+debug: websocket writing 2::
+debug: set heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: set heartbeat interval for client C335EWu6gLOhAJ3YTNI6
+debug: emitting heartbeat for client ipkz4xIB39q45JzWTNI7
+debug: websocket writing 2::
+debug: set heartbeat timeout for client ipkz4xIB39q45JzWTNI7
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client ipkz4xIB39q45JzWTNI7
+debug: set heartbeat interval for client ipkz4xIB39q45JzWTNI7
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Ana</strong> diz: 💗💜💖💓"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Ana</strong> diz: 💗💜💖💓"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> diz: Te amo muito!"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> diz: Te amo muito!"}]}
+debug: emitting heartbeat for client C335EWu6gLOhAJ3YTNI6
+debug: websocket writing 2::
+debug: set heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: set heartbeat interval for client C335EWu6gLOhAJ3YTNI6
+debug: emitting heartbeat for client ipkz4xIB39q45JzWTNI7
+debug: websocket writing 2::
+debug: set heartbeat timeout for client ipkz4xIB39q45JzWTNI7
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client ipkz4xIB39q45JzWTNI7
+debug: set heartbeat interval for client ipkz4xIB39q45JzWTNI7
+debug: emitting heartbeat for client C335EWu6gLOhAJ3YTNI6
+debug: websocket writing 2::
+debug: set heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: set heartbeat interval for client C335EWu6gLOhAJ3YTNI6
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Ana</strong> diz: Tbm te amo muitooo!!! 😍😍😍😍😘😘😘"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Ana</strong> diz: Tbm te amo muitooo!!! 😍😍😍😍😘😘😘"}]}
+debug: emitting heartbeat for client ipkz4xIB39q45JzWTNI7
+debug: websocket writing 2::
+debug: set heartbeat timeout for client ipkz4xIB39q45JzWTNI7
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client ipkz4xIB39q45JzWTNI7
+debug: set heartbeat interval for client ipkz4xIB39q45JzWTNI7
+debug: emitting heartbeat for client C335EWu6gLOhAJ3YTNI6
+debug: websocket writing 2::
+debug: set heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: set heartbeat interval for client C335EWu6gLOhAJ3YTNI6
+debug: emitting heartbeat for client ipkz4xIB39q45JzWTNI7
+debug: websocket writing 2::
+debug: set heartbeat timeout for client ipkz4xIB39q45JzWTNI7
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client ipkz4xIB39q45JzWTNI7
+debug: set heartbeat interval for client ipkz4xIB39q45JzWTNI7
+debug: emitting heartbeat for client C335EWu6gLOhAJ3YTNI6
+debug: websocket writing 2::
+debug: set heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: set heartbeat interval for client C335EWu6gLOhAJ3YTNI6
+info: transport end (undefined)
+debug: set close timeout for client ipkz4xIB39q45JzWTNI7
+debug: cleared close timeout for client ipkz4xIB39q45JzWTNI7
+debug: cleared heartbeat interval for client ipkz4xIB39q45JzWTNI7
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> saiu da sala."}]}
+debug: websocket writing 5:::{"name":"lista","args":[{"lista":["Ana"]}]}
+debug: discarding transport
+debug: emitting heartbeat for client C335EWu6gLOhAJ3YTNI6
+debug: websocket writing 2::
+debug: set heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client C335EWu6gLOhAJ3YTNI6
+debug: set heartbeat interval for client C335EWu6gLOhAJ3YTNI6
+info: transport end (undefined)
+debug: set close timeout for client C335EWu6gLOhAJ3YTNI6
+debug: cleared close timeout for client C335EWu6gLOhAJ3YTNI6
+debug: cleared heartbeat interval for client C335EWu6gLOhAJ3YTNI6
+debug: discarding transport
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized Cq2PjFPr-h9b7DW4TNI8
+debug: setting request GET /socket.io/1/websocket/Cq2PjFPr-h9b7DW4TNI8
+debug: set heartbeat interval for client Cq2PjFPr-h9b7DW4TNI8
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"Bem vindo ao chat do Thales!"}]}
+debug: websocket writing 5:::{"name":"lista","args":[{"lista":["Thales"]}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> entrou na sala."}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> diz: tese"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> diz: few"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> diz: fewgewgwe"}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>Thales</strong> diz: gwegwehew"}]}
+debug: emitting heartbeat for client Cq2PjFPr-h9b7DW4TNI8
+debug: websocket writing 2::
+debug: set heartbeat timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: set heartbeat interval for client Cq2PjFPr-h9b7DW4TNI8
+debug: emitting heartbeat for client Cq2PjFPr-h9b7DW4TNI8
+debug: websocket writing 2::
+debug: set heartbeat timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: set heartbeat interval for client Cq2PjFPr-h9b7DW4TNI8
+debug: emitting heartbeat for client Cq2PjFPr-h9b7DW4TNI8
+debug: websocket writing 2::
+debug: set heartbeat timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: set heartbeat interval for client Cq2PjFPr-h9b7DW4TNI8
+debug: emitting heartbeat for client Cq2PjFPr-h9b7DW4TNI8
+debug: websocket writing 2::
+debug: set heartbeat timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: set heartbeat interval for client Cq2PjFPr-h9b7DW4TNI8
+debug: emitting heartbeat for client Cq2PjFPr-h9b7DW4TNI8
+debug: websocket writing 2::
+debug: set heartbeat timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: set heartbeat interval for client Cq2PjFPr-h9b7DW4TNI8
+info: transport end (undefined)
+debug: set close timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: cleared close timeout for client Cq2PjFPr-h9b7DW4TNI8
+debug: cleared heartbeat interval for client Cq2PjFPr-h9b7DW4TNI8
+debug: discarding transport
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized L5yDX2Px9BZfx4jLTNI9
+debug: setting request GET /socket.io/1/websocket/L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"Bem vindo ao chat do Thales!"}]}
+debug: websocket writing 5:::{"name":"lista","args":[{"lista":["fwefwe"]}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>fwefwe</strong> entrou na sala."}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>fwefwe</strong> diz: teste"}]}
+debug: emitting heartbeat for client L5yDX2Px9BZfx4jLTNI9
+debug: websocket writing 2::
+debug: set heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: emitting heartbeat for client L5yDX2Px9BZfx4jLTNI9
+debug: websocket writing 2::
+debug: set heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: emitting heartbeat for client L5yDX2Px9BZfx4jLTNI9
+debug: websocket writing 2::
+debug: set heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: emitting heartbeat for client L5yDX2Px9BZfx4jLTNI9
+debug: websocket writing 2::
+debug: set heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: emitting heartbeat for client L5yDX2Px9BZfx4jLTNI9
+debug: websocket writing 2::
+debug: set heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: emitting heartbeat for client L5yDX2Px9BZfx4jLTNI9
+debug: websocket writing 2::
+debug: set heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: emitting heartbeat for client L5yDX2Px9BZfx4jLTNI9
+debug: websocket writing 2::
+debug: set heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: emitting heartbeat for client L5yDX2Px9BZfx4jLTNI9
+debug: websocket writing 2::
+debug: set heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: emitting heartbeat for client L5yDX2Px9BZfx4jLTNI9
+debug: websocket writing 2::
+debug: set heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: emitting heartbeat for client L5yDX2Px9BZfx4jLTNI9
+debug: websocket writing 2::
+debug: set heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: set heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+info: transport end (undefined)
+debug: set close timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: cleared close timeout for client L5yDX2Px9BZfx4jLTNI9
+debug: cleared heartbeat interval for client L5yDX2Px9BZfx4jLTNI9
+debug: discarding transport
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized sOzEFmCWLw6ANBCmTNI-
+debug: setting request GET /socket.io/1/websocket/sOzEFmCWLw6ANBCmTNI-
+debug: set heartbeat interval for client sOzEFmCWLw6ANBCmTNI-
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"Bem vindo ao chat do Thales!"}]}
+debug: websocket writing 5:::{"name":"lista","args":[{"lista":["fwefwe"]}]}
+debug: websocket writing 5:::{"name":"message_to_client","args":[{"message":"<strong>fwefwe</strong> entrou na sala."}]}
+info: transport end (undefined)
+debug: set close timeout for client sOzEFmCWLw6ANBCmTNI-
+debug: cleared close timeout for client sOzEFmCWLw6ANBCmTNI-
+debug: cleared heartbeat interval for client sOzEFmCWLw6ANBCmTNI-
+debug: discarding transport
